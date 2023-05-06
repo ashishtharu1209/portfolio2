@@ -1,0 +1,111 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color:black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-size: cover;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(126, 219, 231);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: darkslateblue;
+	padding: 20px;
+
+}
+span{
+    color:#f9004d;
+}
+.image
+{
+	margin-bottom: 30px;
+
+}
+.about{
+	margin-bottom: 30px;
+	 color: orangered;
+}
+.about ul{
+	color: black;
+}
+ .Contact{
+	margin-bottom: 30px;
+	color:orangered;
+
+ } 
+ .Contact b {
+	 color: black;
+	} 
+
+
+ 
+ .Language{
+	margin-bottom: 30px;
+	color: orangered;
+
+ } 
+ .Language ul{
+	 color:black ;
+
+ }
+ .Hobbies{
+	 margin-bottom: 30px;
+	 color: orangered;
+
+ } 
+ .hobbies ul{
+	 color: black;
+ }
+
+ .title{
+	 margin-bottom: 30px;
+	 color:black;
+ }
+.Summary{
+	margin-bottom: 30px;
+	color: orangered;
+}
+.summary p{
+	color:white;
+	margin-top: 10px;
+}
+
+.Education{
+	margin-bottom: 30px;
+	color: orangered;
+}
+.Education P{
+	color:white;
+	margin-top:10px ;
+}
+table, th, td {
+    border: 1px solid red;
+	margin-top: 20px;
+
+}
+th, td {
+    padding: 10px;
+	
+}
+tr{
+background-color: ghostwhite;
+}
